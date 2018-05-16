@@ -1,0 +1,55 @@
+c:\users\trebi\onedrive\documents\visual studio 2015\Projects\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.exe.config
+c:\users\trebi\onedrive\documents\visual studio 2015\Projects\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.exe
+c:\users\trebi\onedrive\documents\visual studio 2015\Projects\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.pdb
+c:\users\trebi\onedrive\documents\visual studio 2015\Projects\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.csprojResolveAssemblyReference.cache
+c:\users\trebi\onedrive\documents\visual studio 2015\Projects\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Gameboard.resources
+c:\users\trebi\onedrive\documents\visual studio 2015\Projects\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Properties.Resources.resources
+c:\users\trebi\onedrive\documents\visual studio 2015\Projects\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.csproj.GenerateResource.Cache
+c:\users\trebi\onedrive\documents\visual studio 2015\Projects\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.exe
+c:\users\trebi\onedrive\documents\visual studio 2015\Projects\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.pdb
+c:\users\trebi\onedrive\documents\visual studio 2015\Projects\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Questions.resources
+G:\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.exe.config
+G:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.exe
+G:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.pdb
+G:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.csprojResolveAssemblyReference.cache
+G:\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Gameboard.resources
+G:\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Properties.Resources.resources
+G:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.csproj.GenerateResource.Cache
+G:\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.exe
+G:\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.pdb
+C:\Users\Trebi\Desktop\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.exe.config
+C:\Users\Trebi\Desktop\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.exe
+C:\Users\Trebi\Desktop\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.pdb
+C:\Users\Trebi\Desktop\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.exe
+C:\Users\Trebi\Desktop\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.pdb
+C:\Users\Trebi\Desktop\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.csprojResolveAssemblyReference.cache
+C:\Users\Trebi\Desktop\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Gameboard.resources
+C:\Users\Trebi\Desktop\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Properties.Resources.resources
+C:\Users\Trebi\Desktop\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.csproj.GenerateResource.Cache
+H:\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.exe.config
+H:\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Gameboard.resources
+H:\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Properties.Resources.resources
+H:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.csproj.GenerateResource.Cache
+H:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.exe
+H:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.pdb
+H:\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.exe
+H:\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.pdb
+H:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.csprojResolveAssemblyReference.cache
+E:\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.exe.config
+E:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.exe
+E:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.pdb
+E:\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.exe
+E:\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.pdb
+E:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.csprojResolveAssemblyReference.cache
+E:\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Gameboard.resources
+E:\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Properties.Resources.resources
+E:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.csproj.GenerateResource.Cache
+D:\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.exe.config
+D:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.exe
+D:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.pdb
+D:\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.exe
+D:\Press Your Luck\Press Your Luck\bin\Debug\Press Your Luck.pdb
+D:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.csprojResolveAssemblyReference.cache
+D:\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Gameboard.resources
+D:\Press Your Luck\Press Your Luck\obj\Debug\Press_Your_Luck.Properties.Resources.resources
+D:\Press Your Luck\Press Your Luck\obj\Debug\Press Your Luck.csproj.GenerateResource.Cache
