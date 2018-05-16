@@ -1,0 +1,27 @@
+<ion-content class="background ">
+  <h1>Student Survival Guide</h1>
+    <ion-card>
+        <ion-card-header>
+          Welcome, Please Login
+        </ion-card-header>
+        <ion-card-content>
+          <ion-list no-lines>
+            <ion-item>
+              <ion-label floating >Email Address</ion-label>
+              <ion-input type ="text"[(ngModel)]="user.email"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label floating >Password</ion-label>
+              <ion-input type ="Password" [(ngModel)]="user.password"></ion-input>
+            </ion-item>
+            <ion-item>
+             <p><a>Forgot Password?</a></p>
+            </ion-item>
+            <button ion-button color="danger" (click)="login(user)" block>LOGIN</button>
+          </ion-list>
+          <b>OR</b>
+            <button ion-button color="light" (click)="openregister()"ion-left block>Register
+            </button>
+        </ion-card-content>
+      </ion-card>
+</ion-content>

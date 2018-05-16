@@ -1,0 +1,20 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>User Information</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content>
+  <!-- <div *ngIf="profile"> -->
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input type ="text"[(ngModel)]="profile.username"></ion-input>
+    </ion-item>
+      <ion-item>
+        <button ion-button color ="danger" (click)="saveprofile()"ion-left block>Confirm</button>
+      </ion-item>
+  </ion-list>
+<!-- </div> -->
+</ion-content>

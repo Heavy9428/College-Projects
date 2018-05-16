@@ -1,0 +1,44 @@
+<ion-content class="background">
+  <ion-list>
+    <ion-item style = "background-color:maroon"*ngFor="let item of profLisRef$|async">
+      <div class="pic">
+        <ion-avatar item-start class="pic-size">
+          <img class="circle-pic" src="../assets/imgs/{{item.pic}}.png">
+        </ion-avatar>
+      </div>
+      <div class="look-good-damn-you">
+        <h2>
+          Info:
+          <br/>
+          <p>{{item.Info}}</p>
+        </h2>
+        <h2>
+          Language:
+          <br/>
+          <p>{{item.Languages}}</p>
+        </h2>
+        <h2>
+          Research:
+          <br/>
+          <p>{{item.Reserch}}</p>
+        </h2>
+        <h2>
+          Past Research:
+          <br/>
+          <p>{{item.PReserch}}</p>
+        </h2>
+        <h2>
+          Why Computer Science:
+          <br/>
+          <p>{{item.Why}}</p>
+        </h2>
+        <h2>
+          Extra Info:
+          <br/>
+          <p>{{item.EInfo}}</p>
+        </h2>
+      </div>
+    </ion-item>
+  </ion-list>
+  <button ion-button color="danger" style="position: fixed; bottom: 55px; left: 0px; right: 0px;" (click)="goBack()" block>Professor List</button>
+</ion-content>
