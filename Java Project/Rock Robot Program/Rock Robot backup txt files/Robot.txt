@@ -1,0 +1,140 @@
+//Matthew Trebing
+//Oop Program 2
+//Dr. Stringfellow
+//October 1st, 2015
+
+import java.text.DecimalFormat;
+import java.util.*;
+
+public abstract class Robot
+{
+	Direction direction;
+	private int x;
+	private int y;
+	private boolean activeRobot = false;
+	private int totaldistance;
+	private ArrayList<Rock> rocklist;
+	private String Log;
+	public static DecimalFormat format = new DecimalFormat("0.00");
+
+	public Robot()
+	{
+		x=0;
+		y=0;
+		totaldistance = 0;
+		Log ="";
+		activeRobot = false;
+	}
+	
+	public Robot(Robot other)
+	{
+		x=other.x;
+		y=other.y;
+		totaldistance = other.totaldistance;
+		Log = other.Log;
+		activeRobot = false;
+	}
+	
+	public Robot(int newx,int newy, int newtotal)
+	{
+		x = newx;
+		y = newy;
+		totaldistance=newtotal;
+		Log="";
+		activeRobot = false;
+	}
+	
+	public int getxrobot()
+	{
+		return x;
+	}
+	
+	public void setxrobot(int value)
+	{
+		x= value;
+	}
+	
+	public int getyrobot()
+	{
+		return y;
+	}
+	
+	public void setyrobot(int value)
+	{
+		y = value;
+	}
+	
+	protected void moveRobot(int x, int y)
+	{
+		totaldistance+=distance(x,y);
+		this.x = x;
+		this.y = y;
+	}
+	
+	protected void addtoLog(String Log)
+	{
+		this.Log += Log;
+	}
+	
+	public boolean Roboton()
+	{
+		return activeRobot=true;
+	}
+	
+	public boolean Robotoff()
+	{
+		return activeRobot = false;
+	}
+	
+	
+	public double totaldistance()
+	{
+		return totaldistance;
+	}
+	
+	public double distance(int x, int y)
+	{	
+		//This is the distance Formula
+		return Math.sqrt(Math.pow(this.x - x,2)
+						+Math.pow(this.y - y,2));
+	}
+	
+	
+	public String getLog()
+	{
+		return Log;
+	}
+	
+	private static enum Direction
+	{
+		North("North"), South("South"), East("East"), West("West");
+		private final String name;
+		
+		private Direction(String name)
+		{
+			this.name=name;
+		}
+	}
+	
+	public void setDirection(String direction)
+	{
+		switch(direction)
+		{
+		case"North": 
+			this.direction = Direction.North; break;
+		case"South":
+			this.direction = Direction.South; break;
+		case"East":
+			this.direction = Direction.East; break;
+		case"West":
+			this.direction = Direction.West; break;
+		}
+		
+	}
+	
+	public String getDirection()
+	{
+		return direction.name;
+	}
+	
+}
