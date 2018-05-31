@@ -1,0 +1,142 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+import javax.swing.JOptionPane;
+//Matthew Trebing
+//OOP Program 2 
+public class Main 
+{
+	public static PrintWriter output;
+	
+	public static void main(String[] args) 
+	{
+		
+		ArrayList<Rock> rocklist = new ArrayList<Rock>();
+		
+		Rock Rocklist;
+		Robot robot;
+		String Filename = Readinput();
+		Scanner input = new Scanner(System.in);
+		BufferedReader in = null;
+		
+		try 
+		{
+			in = new BufferedReader(new FileReader(Filename));
+		} 
+		catch (FileNotFoundException e) 
+		{
+			
+			e.printStackTrace();
+			System.out.println("hi");
+			
+		}
+		
+		
+		
+		setOutput(input);
+		
+		PrintHeading();
+
+		try 
+		{
+			in.close();
+		} 
+		catch (IOException e) 
+		
+		{
+			
+			e.printStackTrace();
+		}
+
+		rocklist = addRocks(in, rocklist);	
+		
+		
+	}
+	
+	public static ArrayList<Rock> addRocks(BufferedReader in, ArrayList<Rock> rocklist) // adds all the rocks from my file
+	{
+		String s = null;
+		Rock rock = null;
+		int i = 0;
+		try 
+		{
+			while ((s = in.readLine()) != null)
+			{
+			  StringTokenizer t = new StringTokenizer(s);
+			  int x = Integer.parseInt(t.nextToken());
+			  int y = Integer.parseInt(t.nextToken());
+			  rock.setxcoord(x);
+			  rock.setycoord(y);
+			  rock = new Rock(x,y);
+			  rocklist.add(rock);
+			  
+			  
+			}
+		} 
+		catch (NumberFormatException e)
+		{
+			e.printStackTrace();
+			System.out.println("couldnt convert string to int");
+		}
+		catch (IOException e)
+		{
+			e.printStackTrace();
+			System.out.println("couldnt get line from file");
+		}
+		return rocklist;
+	}
+	
+	
+	public static void setOutput(Scanner in)
+	{
+		System.out.println("Please enter in the outfile name");
+		try
+		{
+			output = new PrintWriter(new FileWriter(in.next()));
+		}
+		catch(IOException e) // uses a try/catch to make sure the output opens correctly
+		{
+			System.err.println("Caught IOException" + e.getMessage());
+		}
+	}
+	
+	public static void PrintHeading()
+	{
+		output.println("Matthew Trebing");
+		output.println("Dr. Stringfellow");
+		output.println("OOp Program 2");
+	}
+	
+	public static String Readinput()
+	{
+			String inFile = JOptionPane.showInputDialog("Please "
+                + "enter the input file. If nothing is entered, "
+                + " the default input file will be used: 'InFile.txt'\n");
+		
+		return inFile;
+	}
+	
+	
+	public static void getRocks(Robot robot)
+	{
+		
+		
+		int Botx=0;
+		int Boty=0;
+		
+		robot.Robotoon();
+		
+		robot.setxrobot(Botx);
+		robot.setyrobot(Boty);
+		
+		
+	}	
+	
+}

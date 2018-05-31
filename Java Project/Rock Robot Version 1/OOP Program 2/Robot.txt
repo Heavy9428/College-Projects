@@ -1,0 +1,60 @@
+
+
+
+public class Robot 
+{
+	
+	private int x;
+	private int y;
+	boolean activeRobot = false;
+	
+	public Robot()
+	{
+		x=0;
+		y=0;
+	}
+	
+	public Robot(Robot other)
+	{
+		x=other.x;
+		y=other.y;
+	}
+	
+	public Robot(int newx, int newy)
+	{
+		x = newx;
+		y = newy;
+	}
+	
+	public int getxrobot()
+	{
+		return x;
+	}
+	
+	public void setxrobot(int value)
+	{
+		x= value;
+	}
+	
+	public int getyrobot()
+	{
+		return y;
+	}
+	
+	public void setyrobot(int value)
+	{
+		y = value;
+	}
+	
+	public boolean Robotoon()
+	{
+		return activeRobot=true;
+	}
+	
+	public boolean Robotoff()
+	{
+		return activeRobot = false;
+	}
+	
+	
+}

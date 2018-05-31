@@ -1,0 +1,55 @@
+
+public class Rock implements IRock 
+{
+	private int x;
+	private int y;
+	
+	public Rock()
+	{
+		x = 0;
+		y = 0;	
+	}
+	
+	public Rock(Rock other)
+	{
+		x=other.x;
+		y=other.y;
+	}
+	
+	public Rock(int newx, int newy)
+	{
+		newx=x;
+		newy=y;
+	}
+	
+	public int getxcoord()
+	{
+		return x;
+	}
+	
+	public void setxcoord(int value)
+	{
+		x = value;
+	}
+	
+	public int getycoord()
+	{
+		return y;
+	}
+	
+	public void setycoord(int value)
+	{
+		y = value;
+	}
+	
+	public boolean isPickedup()
+	{
+		return false;
+	}
+	
+	public boolean changePickedup()
+	{
+		return true;
+	}
+	
+}

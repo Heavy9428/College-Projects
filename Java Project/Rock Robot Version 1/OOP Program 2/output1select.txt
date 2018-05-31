@@ -1,0 +1,27 @@
+Matthew Trebing
+Dr. Stringfellow
+OOp Program 2
+
+
+
+You set the robot's x value to 20
+
+You set the robot's y value to 65
+
+You asked the robot to pick up 8 Rocks
+
+
+
+Rocks Collected	    Position	 Distance (in Miles)
+
+	19	      (20,70)		5.00
+	20	      (30,65)		11.18
+	12	      (40,60)		11.18
+	17	      (40,70)		10.00
+	7	      (50,80)		14.14
+	5	      (60,70)		14.14
+	9	      (75,75)		15.81
+	15	      (85,75)		10.00
+
+Total distance covered: 90.0 miles
+

@@ -1,0 +1,28 @@
+//Matthew Trebing
+public interface Irock 
+{	
+	//This will get the xcoord from the infile
+	//This returns the x value
+	public int getxcoord();
+	
+	//This will get the y coord from the infile
+	//This will return the y coord
+	public int getycoord();
+	
+	//This will give x a value in the array	
+	//This needs to have a valid x in the infile
+	//This will return the value of x
+	public void setxcoord(int value);
+	
+	//This will give y a value in the array	
+	//This needs to have a valid y in the infile
+	//This will return the value of y
+	public void setyycoord(int value);
+	
+	//Will return a true or false if the rock has been 
+	//picked up or not
+	public boolean isPickedup();
+	
+	public boolean changePickedup();
+}
+

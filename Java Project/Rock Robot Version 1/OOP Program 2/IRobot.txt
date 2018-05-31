@@ -1,0 +1,57 @@
+//Matthew Trebing
+public interface IRobot 
+{
+	
+	//This will check to see if the robot is turned on
+	//Returns either true of false
+	public boolean Roboton();
+	
+	//This will check to see if the robot is off
+	//Returns either a true or a false
+	public boolean Robotoff();
+	
+	//This will check if the array is empty
+	//Returns a true or false
+	public boolean Isempty();
+	
+	//This will check if the array if full
+	//Returns a true or false
+	public boolean IsFull();
+	
+	//This will set the robot initial direction 
+	//of either North, South, East or West
+	public void SetDirection();
+	
+	//This will change the direction of the robot 
+	//to another direction.
+	public void ChangeDirection();
+
+	//This will send the information collected
+	//back home to Earth
+	public void SignalHome();
+	
+	//This will get the x coord for the Robot
+	//It will be used as the starting location 
+	public void getxrobot();
+	
+	//This will get the y coord for the Robot
+	//It will be used as the starting location
+	public void getyrobot();
+	
+	//This will set the x coord for the Robot
+	//This will set the starting location 
+	public void setxrobot(int value);
+	
+	//This will set the y coord for the Robot
+	//This will set the starting location 
+	public void setyrobot(int value);
+	
+	//This will keep a running total of the number of Rocks
+	//that are on the grid
+	public void totalRocks();
+	
+	//This will keep a running total of the 
+	//total distance the robot has traveled
+	public void totalDistance();
+	
+}
